@@ -14,7 +14,7 @@ public class Pays {
     public Pays(String nom, double tauxDeNivauxDeVie) {
         this.nom = nom;
         this.tauxDeNivauxDeVie = tauxDeNivauxDeVie;
-        this.tauxDeConversion = 1;
+        this.tauxDeConversion = obtenirTauxConversionEnTempsReel();
     }
 
     private double obtenirTauxConversionEnTempsReel() {

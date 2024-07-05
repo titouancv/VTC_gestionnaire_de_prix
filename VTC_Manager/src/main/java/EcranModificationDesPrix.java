@@ -270,7 +270,7 @@ public class EcranModificationDesPrix {
 
 
 
-        JButton boutonSoumettre = new JButton("Modification des Prix");
+        JButton boutonSoumettre = new JButton("Modifier les Prix");
         boutonSoumettre.setBounds(10, 410, 435, 25);
         panneau.add(boutonSoumettre);
 
